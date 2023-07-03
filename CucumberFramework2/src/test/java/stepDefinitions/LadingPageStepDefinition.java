@@ -41,7 +41,9 @@ public LadingPageStepDefinition(TestContextSetup testContextSetup)
 		//testContextSetup.driver.findElement(By.xpath("//input[@type='search']")).sendKeys(shortName);
 	    Thread.sleep(2000);
 	    testContextSetup.LandingPageProductName = landingPage.getProductName().split("-")[0].trim();
-	    System.out.println(testContextSetup.LandingPageProductName);    
+	    System.out.println(testContextSetup.LandingPageProductName);   
+	    System.out.println("una prueba para git");
+	    System.out.println("una prueba para git de nuevo");
 	}
 	@When("Added {string} items of the selected product to cart")
 	public void Added_items_product(String quantity)
